@@ -4,7 +4,7 @@ import { getLocalStorage, setLocalStorage } from '../utils/localStorage';
 
 export default function Elixirs() {
   const ENDPOINT = 'Elixirs';
-  const [wizards, setElixirs] = useState();
+  const [setElixirs] = useState();
 
   useEffect(() => {
     let data = getLocalStorage(ENDPOINT);
